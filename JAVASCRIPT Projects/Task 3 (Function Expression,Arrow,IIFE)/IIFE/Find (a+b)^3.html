@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find (a+b)^3</title>
+</head>
+
+<body>
+    <script>
+        let result = ((a, b) => {
+            return ((a * a * a) + 3 * (a * a) * b + 3 * a * (b * b) + (b * b * b))
+        })
+            (2, 3);
+        alert(result)
+        console.log(result)
+    </script>
+</body>
+
+</html>
