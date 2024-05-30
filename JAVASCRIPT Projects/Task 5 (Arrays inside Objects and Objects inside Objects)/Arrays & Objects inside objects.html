@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objects & Arrays inside Objects</title>
+</head>
+
+<body>
+    <script>
+        let employee_details = {
+
+            id: 101,
+            name: {
+                firstname: 'Dipjyoti',
+                lastname: 'Kundu'
+            },
+            hobbies: ['Gaming', 'Travelling'],
+            salary: 70000,
+            experience: [
+
+                {
+                    company: 'Capgemini',
+                    capgeminiYear: 2024
+                },
+                {
+                    company: 'Cognizant',
+                    cognizantYear: 2025
+                },
+                {
+                    company: 'Amazon',
+                    amazonYear: 2026
+                }
+
+            ],
+            phoneno: [
+                {
+                    home: '187-8834-7891',
+                    work: 887563341
+                }
+            ],
+            bankAccounts: [
+                {
+                    bank: 'SBI',
+                    sbiAccountNo: 22885859395,
+                    sbiIfsc: '1883YYTRE922'
+                },
+                {
+                    bank: 'HDFC',
+                    hdfcAccountNo: 434342772711,
+                    hdfcIfsc: 'AGD113787H8'
+                },
+                {
+                    bank: 'PNB',
+                    pnbAccountNo: 35535266211,
+                    pnbIfsc: '1382HSGD14'
+                }
+            ]
+
+
+        }
+        console.log(employee_details);
+    </script>
+</body>
+
+</html>
